@@ -1,6 +1,6 @@
-# jekyll-simple-dark
+# jekyll-tiff-simple-dark
 
-A simple and dark theme for Jekyll.
+A simple and dark theme for Jekyll, also very tumblr.
 
 Responsive images, tables and iframes (for include videos of **Youtube**, **Vimeo** or similar services)
 A minimal pure javascript code for toggle menu and responsive tables. Compatible with Google Analytics and jekyll-seo-tags.
@@ -12,13 +12,13 @@ Support socials networks links (simple add the links on your _config.yml):
 * RSS
 * Facebook
 * Twitter
-* Google+
+* Google+ (doesn't exist anymore but... we support it!)
 * Pinterest
 * Youtube
 * Vimeo
 * Instagram
 * Linkedin
-* Reedit
+* Reddit
 * Spotify
 * Telegram
 * GitLab
