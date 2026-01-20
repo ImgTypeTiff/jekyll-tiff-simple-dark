@@ -5,6 +5,16 @@ body {
 	font-family: 'Open Sans';
 }
 
+div.entry {
+  border: 1px solid #444;    /* border line */
+  border-radius: 12px;       /* rounded corners */
+  padding: 18px;             /* space inside the box */
+  margin-bottom: 24px;       /* space between posts */
+  background: #1a1a1a;       /* dark background */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* optional shadow */
+}
+
+
 a {
 	color: #0074D9;
 	text-decoration: none;
