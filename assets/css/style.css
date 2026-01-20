@@ -133,6 +133,15 @@ pre {
 #pagination .actual-page {font-weight: bold;}
 #pagination .inactive {color: #aaa}
 
+#sidebar {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    height: 100%; 
+    width: 300px;
+    background: #000;
+}
+
 @media (max-width: 768px){
 	header {
 		line-height: 1px;
