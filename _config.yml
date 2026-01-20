@@ -1,6 +1,6 @@
 title: Jekyll Simple Dark
 email: sonlink.dourden@gmail.com
-description: > # Sample blog for my theme.
+description: Sample blog for my theme.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "https://ImgTypeTiff.github.io/jekyll-tiff-simple-dark/" # the base hostname & protocol for your site
 
