@@ -133,6 +133,11 @@ pre {
 #pagination .actual-page {font-weight: bold;}
 #pagination .inactive {color: #aaa}
 
+.center {
+	text-align: center;
+}
+
+
 #sidebar {
     position: fixed;
     left: 0px;
