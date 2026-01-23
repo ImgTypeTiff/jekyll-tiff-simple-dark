@@ -137,13 +137,18 @@ pre {
 	text-align: center;
 }
 
+.sidebar-header {
+	text-align: center;
+	font-size: 25%;
+
+}
 
 #sidebar {
     position: fixed;
     left: 0px;
     top: 50px;
     height: 75%; 
-    width: 300px;
+    width: 10%;
     background: #000;
 	text-align: center;
 }
