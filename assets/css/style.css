@@ -140,7 +140,7 @@ pre {
 }
 
 .sidebar-text {
-  font-size: clamp(0.9rem, 1.2vw, 1.05rem);
+  font-size: 20px
   line-height: 1.5;
 }
 
