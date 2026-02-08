@@ -150,7 +150,12 @@ pre {
     top: 50px;
     height: 75%; 
     width: 10%;
-    background: #000;
+	border: 1px solid #444;    /* border line */
+	border-radius: 12px;       /* rounded corners */
+	padding: 18px;             /* space inside the box */
+	margin-bottom: 24px;       /* space between posts */
+	background: #1a1a1a;       /* dark background */
+	box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* optional shadow */
 	text-align: center;
 }
 
