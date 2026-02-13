@@ -1,12 +1,18 @@
-{% include sidebar.html %}
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-	<link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-	<link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+  {% include head.html %}
 </head>
+<body>
+
+
+{% include sidebar.html %}
 
 <div id="content">
 	{% include header.html %}
 	{{ content }}
 </div>
 {% include footer.html %}
+
+</body>
+</html>
