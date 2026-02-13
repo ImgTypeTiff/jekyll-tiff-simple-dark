@@ -5,7 +5,9 @@
   <div id="sidebar">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     {% if site.profilepicture %}
-      test
+      <img src="{{ 'site.profilepicture' | relative_url }}" alt="Profile Picture" class="profile-pic">
+    {% else %}
+      <img src="{{ '/assets/images/profile.jpg' | relative_url }}" alt="Profile Picture" class="profile-pic">
     {% endif %}
     <h2 class="sidebar-title"><a href="{{site.url}}" id="site-title">{{ site.title }}</a></h2>
     <p style="text-align: center;">{{ site.description }}</p>
