@@ -116,6 +116,21 @@ pre {
 	margin: 5px 0;
 }
 
+.entry-title {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff; /* or any color that works for your dark theme */
+    margin-bottom: 0.5em;
+}
+
+.entry-date {
+    font-size: 0.9em;
+    color: #888;
+    display: block;
+    margin-bottom: 1em;
+}
+
+
 /* Pagination */
 
 #pagination {
