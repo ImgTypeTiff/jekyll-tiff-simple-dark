@@ -3,7 +3,7 @@ layout: default
 ---
 
 <title>{{ page.title }}</title>
-<a href="{{ 'site.url' | relative_url }}" class="back-button">← Back to blog</a>
+<a href="{{ site.url }}" class="back-button">← Back to blog</a>
 <h2 style="color: white">{{ page.title }}</h2>
 <time class="entry-date">{{ page.date | date: "%d/%m/%Y" }}</time>
 {{ content }}
