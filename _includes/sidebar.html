@@ -4,6 +4,9 @@
 {% if site.sidebar %}
   <div id="sidebar">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    {% if site.profilepicture %}
+      test
+    {% endif %}
     <h2 class="sidebar-title"><a href="{{site.url}}" id="site-title">{{ site.title }}</a></h2>
     <p style="text-align: center;">{{ site.description }}</p>
   </div>
