@@ -4,10 +4,10 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-		<link rel="stylesheet" type="text/css" href="{{ '/assets/css/normalize.css' | prepend: site.url }}" />
-		<link rel="stylesheet" type="text/css" href="{{ '/assets/css/fontello-embedded.css' | prepend: site.url }}" />
-		<link rel="stylesheet" type="text/css" href="{{ '/assets/css/style.css' | prepend: site.url }}" />
-		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ '/feed.xml' | prepend: site.baseurl | prepend: site.url }}" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/fontello-embedded.css" />
+		<link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/assets/css/style.css" />
+		<link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ site.baseurl }}/feed.xml" />
 		<!-- Check if jekyll-seo-tag plugin is activated -->
 		{% if site.plugins contains 'jekyll-seo-tag' %}
 		{% seo %}
