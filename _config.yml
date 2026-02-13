@@ -2,9 +2,9 @@ title: Jekyll Simple Dark
 description: Sample blog for my theme.
 baseurl: "/jekyll-tiff-simple-dark" # the subpath of your site, e.g. /blog/
 url: "https://ImgTypeTiff.github.io" # the base hostname & protocol for your site
-
-# Build settings
 sidebar: true
+profilepicture: "yay"
+# Build settings
 markdown: kramdown
 highlighter: rouge
 
