@@ -4,6 +4,7 @@ baseurl: "/jekyll-tiff-simple-dark" # the subpath of your site, e.g. /blog/
 url: "https://ImgTypeTiff.github.io" # the base hostname & protocol for your site
 
 # Build settings
+sidebar: true
 markdown: kramdown
 highlighter: rouge
 
