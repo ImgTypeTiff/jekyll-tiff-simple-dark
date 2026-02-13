@@ -23,7 +23,7 @@ plugins:
 - jekyll-seo-tag
 
 # Pagination
-paginate: 3
+paginate: 5
 paginate_path: "/page:num/"
 
 google-analytics: UA-75229203-1
