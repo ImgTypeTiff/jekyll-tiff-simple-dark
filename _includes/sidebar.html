@@ -1,7 +1,9 @@
 <!doctype html>
 <html>
+
+{% if site.sidebar %}
   <div id="sidebar">
     <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
     <h2 class="sidebar-title"><a href="{{site.url}}" id="site-title">{{ site.title }}</a></h2>
   </div>
-
+{% endif %}
