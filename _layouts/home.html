@@ -2,7 +2,9 @@
 layout: default
 ---
 <div id="content">
-	{{ content }}
+	{% if paginator.page == 1 %}
+		{{ content }}
+	{% endif %}
 	<div id="entries">
 		{% for post in paginator.posts %}
 			<div class="entry">
