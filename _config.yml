@@ -23,7 +23,7 @@ plugins:
 
 # Pagination
 paginate: 3
-paginate_path: "page:num/"
+paginate_path: "/page:num/"
 
 google-analytics: UA-75229203-1
 
