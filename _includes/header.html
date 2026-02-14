@@ -23,12 +23,13 @@
 	<body>
 		<header>
 			<a href="#" id="toggle-menu"></a>
-			<!-- <a href="{{site.url}}" id="site-title">{{ site.title }}</a> -->
 			<nav id="main-nav">
 				{% for p in site.pages %}
-					{% if p.title %}
+					{% if p.title and p.layout != "wheatley_crab" %}
 						<a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</a>
-					 {% endif %}
-				 {% endfor %}
+					{% endif %}
+				{% endfor %}
 			</nav>
 		</header>
+
+		
