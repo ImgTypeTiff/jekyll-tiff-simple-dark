@@ -99,27 +99,6 @@ table th {text-align: left}
 
 a:hover {color: #7FDBFF !important;}
 
-.lb {
-  position: relative;
-  text-decoration: none;
-  color: black;
-}
-
-.lb::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px; /* adjust spacing */
-  width: 0;
-  height: 2px;
-  background-color: black;
-  transition: width 0.3s ease;
-}
-
-.lb:hover::after {
-  width: 100%;
-}
-
 pre {
 	 white-space: pre-wrap;
 }
