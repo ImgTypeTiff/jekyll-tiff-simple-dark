@@ -11,6 +11,8 @@ highlighter: rouge
 kramdown:
     input: GFM
 
+permalink: /:slugified_categories/:year-:month-:day/:title/
+
 # Social Network
 social_links: true # If true show social links
 rss: true
