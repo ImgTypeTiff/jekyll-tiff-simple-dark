@@ -99,13 +99,13 @@ table th {text-align: left}
 
 a:hover {color: #7FDBFF !important;}
 
-.link-btn {
+.lb {
   position: relative;
   text-decoration: none;
   color: black;
 }
 
-.link-btn::after {
+.lb::after {
   content: "";
   position: absolute;
   left: 0;
@@ -116,7 +116,7 @@ a:hover {color: #7FDBFF !important;}
   transition: width 0.3s ease;
 }
 
-.link-btn:hover::after {
+.lb:hover::after {
   width: 100%;
 }
 
