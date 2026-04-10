@@ -22,25 +22,24 @@ a {
 }
 
 .link-btn {
-  position: relative;
-  text-decoration: none;
+	position: relative;
+	text-decoration: none;
 }
 
 .link-btn::after {
-  content: "";
-  position: absolute;
-  left: 0;
-  bottom: -2px;
-  width: 100%;
-  height: 2px;
-  background-color: black;
-
-  opacity: 0;
-  transition: opacity 0.3s ease;
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 100%;
+	height: 2px;
+	background-color: black;
+	opacity: 0;
+	transition: opacity 0.3s ease;
 }
 
 .link-btn:hover::after {
-  opacity: 1;
+	opacity: 1;
 }
 
 #content {
