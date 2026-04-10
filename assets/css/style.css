@@ -24,22 +24,23 @@ a {
 .link-btn {
   position: relative;
   text-decoration: none;
-  color: black;
 }
 
 .link-btn::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -2px; /* adjust spacing */
-  width: 0;
+  bottom: -2px;
+  width: 100%;
   height: 2px;
   background-color: black;
-  transition: width 0.3s ease;
+
+  opacity: 0;
+  transition: opacity 0.3s ease;
 }
 
 .link-btn:hover::after {
-  width: 100%;
+  opacity: 1;
 }
 
 #content {
