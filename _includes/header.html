@@ -26,7 +26,7 @@
 			<nav id="main-nav">
 				{% for p in site.pages %}
 					{% if p.title and p.layout != "wheatley_crab" %}
-						<a href="{{ p.url | prepend: site.baseurl }}" class="link-btn">{{ p.title }}</link-btn>
+						<a href="{{ p.url | prepend: site.baseurl }}">{{ p.title }}</link-btn>
 					{% endif %}
 				{% endfor %}
 			</nav>
