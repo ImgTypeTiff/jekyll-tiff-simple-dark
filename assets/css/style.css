@@ -14,6 +14,12 @@ div.entry {
   box-shadow: 0 2px 8px rgba(0,0,0,0.5); /* optional shadow */
 }
 
+box-cont {
+	border: 1px solid #444;
+	border-radius: 12px;
+	padding: 18px;
+	background: #1a1a1a;
+}
 
 a {
 	color: #0074D9;
