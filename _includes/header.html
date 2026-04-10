@@ -26,7 +26,7 @@
 			<nav id="main-nav">
 				{% for p in site.pages %}
 					{% if p.title and p.layout != "wheatley_crab" %}
-						<link-btn href="{{ p.url | prepend: site.baseurl }}" style="margin-right: 20px; margin-left: 20px;">{{ p.title }}</link-btn>
+						<a class=link-btn href="{{ p.url | prepend: site.baseurl }}" style="margin-right: 20px; margin-left: 20px;">{{ p.title }}</link-btn>
 					{% endif %}
 				{% endfor %}
 			</nav>
