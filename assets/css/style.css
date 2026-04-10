@@ -24,6 +24,7 @@ a {
 .link-btn {
 	position: relative;
 	text-decoration: none;
+	color: #0074D9;
 }
 
 .link-btn::after {
