@@ -7,4 +7,4 @@ tags:
 category: blog
 ---
 
-![Jekyll logo](https://github.com/jekyll/brand/raw/master/jekyll-logo-dark-transparent.png)
+<img src="https://github.com/jekyll/brand/raw/master/jekyll-logo-dark-transparent.png" data-lightbox>
